@@ -1,8 +1,14 @@
-export const NavBar = () => {
+export const Contact = () => {
   return (
     <nav>
-      <button type="button">Email</button>
-      <button type="button">LinkedIn</button>
+      <button>
+        <img src="../images/EmailLogo.png" alt="Email logo" />
+        Email
+      </button>
+      <button>
+        <img src="../images/LinkedInLogo.png" alt="LinkedIn logo" />
+        LinkedIn
+      </button>
     </nav>
   );
 };

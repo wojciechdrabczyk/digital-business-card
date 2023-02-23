@@ -1,12 +1,12 @@
 export const Contact = () => {
   return (
-    <>
+    <div className="button">
       <button className="btn">
         <div className="btn-content">
           <img
             src="../images/EmailLogo.png"
             alt="Email logo"
-            style={{ width: "15px" }}
+            style={{ height: "15px" }}
           />
           <span>Email</span>
         </div>
@@ -16,11 +16,11 @@ export const Contact = () => {
           <img
             src="../images/LinkedInLogo.png"
             alt="LinkedIn logo"
-            style={{ width: "15px" }}
+            style={{ height: "15px" }}
           />
           <span>LinkedIn</span>
         </div>
       </button>
-    </>
+    </div>
   );
 };

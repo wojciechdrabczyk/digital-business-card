@@ -1,14 +1,18 @@
 export const Contact = () => {
   return (
-    <nav>
-      <button>
-        <img src="../images/EmailLogo.png" alt="Email logo" />
-        Email
+    <div className="buttons">
+      <button className="EmailButton">
+        <div className="btn-content-center-email">
+          <img src="../images/EmailLogo.png" alt="Email logo" />
+          <span>Email</span>
+        </div>
       </button>
-      <button>
-        <img src="../images/LinkedInLogo.png" alt="LinkedIn logo" />
-        LinkedIn
+      <button className="LinkedInButton">
+        <div className="btn-content-center-linkedin">
+          <img src="../images/LinkedInLogo.png" alt="LinkedIn logo" />
+          <span>LinkedIn</span>
+        </div>
       </button>
-    </nav>
+    </div>
   );
 };
